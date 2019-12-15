@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 800px;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
+    url("../img/hero.jpg");
+  background-size: cover;
+  text-align: center;
+}
+.logo a {
+  color: aliceblue;
+  font-family: "Yesteryear", cursive;
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+  text-decoration: none;
+}
+/* didnt work for me this one */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 2.5rem;
+}
+
+.nav-menu {
+  list-style: none;
+  color: aliceblue;
+}
+
+.nav-menu li {
+  display: inline-block;
+  font-size: 1rem;
+  text-transform: capitalize;
+  font-family: "Oswold", sans-serif;
+}
+
+.nav-menu li a {
+  text-decoration: none;
+  color: aliceblue;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.nav-menu li a:hover {
+  color: #b67f1f;
+}
+
+.header-title {
+  color: #f2ac32;
+  font-size: 3rem;
+  font-family: "Rochester", cursive;
+  margin-top: 10rem;
+  margin-bottom: 1rem;
+}
+
+.header-description {
+  color: aliceblue;
+  font-size: 4rem;
+  letter-spacing: 0.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.header-cta-btn {
+  color: aliceblue;
+  text-decoration: none;
+  background: #b67f1f;
+  font-size: 1.2rem;
+  padding: 0.8rem 1rem;
+  transition: all 0.3s ease-in-out;
+  border-radius: 1.5rem;
+}
+
+.header-cta-btn:hover {
+  background-color: #f2ac32;
+}
