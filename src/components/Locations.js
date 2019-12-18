@@ -9,7 +9,7 @@ function Locations() {
         <div className='location discover discover-border'>
           <div className='discover-overlay'>
             <h1 className='discover-h1'>Discover</h1>
-            <h2 className='discover-h2'>our story</h2>
+            <h2 className='discover-h2'>our locations</h2>
             <p className='discover-p'>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas
               placeat nisi, facilis sunt provident quae quo exercitationem iure

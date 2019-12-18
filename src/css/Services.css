@@ -1,0 +1,134 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.specialities-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)),
+    url("../img/menu.jpg");
+  background-size: cover;
+  padding-top: 6rem;
+  padding-bottom: 6.5rem;
+}
+
+.middle {
+  text-align: center;
+  position: relative;
+}
+
+/* the wave of our sevice section */
+.middle:before {
+  content: "";
+  position: absolute;
+  top: -96px; /* or 100px*/
+  border-top: 100px solid white;
+  border-right: 98vw solid transparent;
+  left: 0;
+}
+
+.middle:after {
+  content: "";
+  position: absolute;
+  bottom: -100px;
+  border-bottom: 100px solid white;
+  border-left: 100vw solid transparent;
+  right: 0;
+}
+
+.middle-h1 {
+  font-family: "Rochester", cursive;
+  color: #f2ac32;
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+}
+.middle-h2 {
+  font-family: "Oswald", sans-serif;
+  color: whitesmoke;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  letter-spacing: 0.2rem;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.col {
+  width: 22rem;
+  margin-left: 1.3rem;
+  margin-right: 1.3rem;
+}
+
+/* breakfast and lunch */
+.col-h3 {
+  text-align: center;
+  margin-top: 1.5rem;
+  margin-bottom: 2.5rem;
+  font-family: "Oswald", sans-serif;
+  color: whitesmoke;
+  font-size: 1.1rem;
+  letter-spacing: 0.2rem;
+}
+
+.image1,
+.image2,
+.image3 {
+  width: 100%;
+  height: 15rem;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.image1:hover .service-overlay,
+.image2:hover .service-overlay,
+.image3:hover .service-overlay {
+  opacity: 1;
+}
+
+.image1 {
+  background: url("../img/breakfast.jpg");
+  background-size: cover;
+  border-radius: 1rem;
+}
+
+.image2 {
+  background: url("../img/lunch.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 1rem;
+}
+
+.image3 {
+  background: url("../img/dinner.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 1rem;
+}
+
+.service-overlay {
+  background-color: rgb(242, 172, 50, 0.6);
+  position: absolute;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  border-radius: 1rem;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.service-overlay-border {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  border: 2px solid white;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 0.2rem;
+  font-size: 1.5rem;
+}

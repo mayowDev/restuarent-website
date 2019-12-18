@@ -1,6 +1,6 @@
 import React from "react";
 import "../css/Header.css";
-import { BrowserRouter as Router, Link, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Link } from "react-router-dom";
 
 function Header() {
   return (
@@ -8,7 +8,7 @@ function Header() {
       <header>
         <nav>
           <h2 className='logo'>
-            <Link to='/'>Foody..</Link>
+            <Link to='/'>The Monal..</Link>
           </h2>
           <ul className='nav-menu'>
             <li>
