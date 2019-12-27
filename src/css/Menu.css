@@ -1,0 +1,19 @@
+.daily-menu {
+  text-align: center;
+  background-color: white;
+  padding: 2.5rem;
+}
+.daily-menu-h1 {
+  font-family: "Rochester", cursive;
+  color: #f2ac32;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.daily-menu-h2 {
+  color: black;
+  font-family: "Oswold", sans-serif;
+  text-transform: uppercase;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}

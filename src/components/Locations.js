@@ -9,13 +9,15 @@ function Locations() {
         <div className='location discover discover-border'>
           <div className='discover-overlay'>
             <h1 className='discover-h1'>Discover</h1>
-            <h2 className='discover-h2'>our locations</h2>
+            <h2 className='discover-h2'>our Story</h2>
             <p className='discover-p'>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas
-              placeat nisi, facilis sunt provident quae quo exercitationem iure
+              The Monal – named after a pheasant of rare and exquisite beauty
+              dwelling a little further north – epitomes this amalgam of the
+              modern and the ancient. The resort is a touch of modernity set in
+              pastoral idyll.
             </p>
             <Link className='discover-link' to='/about'>
-              About us
+              Learn More
             </Link>
           </div>
         </div>
