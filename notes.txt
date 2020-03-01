@@ -1,0 +1,13 @@
+-overlay position in locations section
+parent position is : relativere 
+child: absolute; to mover around
+
+-----------  css generators /ideas
+::fancy border and skews
+-https://bennettfeely.com/clippy/ 
+-https://codepen.io/LekovicMilos/pen/omVzYv
+-online ustaaad youtube for inspiration
+-How to make shapes with CSS by keivn pwel
+-dev online youtube for react css
+-red stabler youtube
+

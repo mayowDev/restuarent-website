@@ -1,0 +1,99 @@
+/* section2: Locations */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.locations-section {
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  padding: 6rem;
+}
+
+/* footitem */
+.location {
+  width: 15rem;
+  height: 25rem; /*400px*/
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.discover {
+  margin-top: 1rem;
+  background-color: white;
+  text-align: center;
+}
+
+.discover-h1 {
+  color: #f2ac32;
+  font-family: "Rochester", cursive;
+  margin-bottom: 1rem;
+  padding-top: 0.5rem;
+  letter-spacing: 0.2rem;
+}
+
+.discover-h2 {
+  font-family: "Oswold", sans-serif;
+  letter-spacing: 0.2rem;
+}
+
+.discover-p {
+  color: rgba(99, 99, 99);
+  font-family: "Oswold", sans-serif;
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.5rem;
+  font-family: "Oswold", sans-serif;
+  padding-top: 0.8rem;
+}
+
+.discover-link {
+  color: #f2ac32;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-family: "Oswold", sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.discover-border {
+  border: 2px solid #f2ac32;
+  position: relative;
+}
+
+.discover-overlay {
+  width: 100%;
+  height: 100%;
+  padding: 1rem 1rem 2rem 1rem;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background-color: white;
+  -webkit-box-shadow: -3px 3px 23px 0px rgb(0, 0, 0, 0.75);
+  -moz-box-shadow: -3px 3px 23px 0px rgb(0, 0, 0, 0.75);
+  box-shadow: -3px 3px 23px 0px rgb(0, 0, 0, 0.75);
+}
+
+.isb {
+  background-image: url("../img/islamabad1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 1.2rem;
+  -webkit-box-shadow: -3px 3px 23px 0px rgb(0, 0, 0, 0.75);
+  -moz-box-shadow: -3px 3px 23px 0px rgb(0, 0, 0, 0.75);
+  box-shadow: -3px 3px 23px 0px rgb(0, 0, 0, 0.75);
+}
+
+.lhr {
+  background-image: url("../img/lahore1.jpg");
+  margin-top: -1rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-box-shadow: -3px 3px 23px 0px rgb(0, 0, 0, 0.75);
+  -moz-box-shadow: -3px 3px 23px 0px rgb(0, 0, 0, 0.75);
+  box-shadow: -3px 3px 23px 0px rgb(0, 0, 0, 0.75);
+}

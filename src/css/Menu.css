@@ -1,0 +1,85 @@
+.daily-menu {
+  text-align: center;
+  background-color: white;
+  padding: 2.5rem;
+}
+.daily-menu-h1 {
+  font-family: "Rochester", cursive;
+  color: #f2ac32;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.daily-menu-h2 {
+  color: black;
+  font-family: "Oswold", sans-serif;
+  text-transform: uppercase;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  letter-spacing: 0.2rem;
+}
+
+.daily-menu-col{
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+
+}
+
+.daily-menu-h3{
+  width: 100%;
+  font-size: 1.5rem;
+  letter-spacing: 0.3rem;
+  font-family: "Rochester", cursive;
+}
+
+.separator{
+  display: inline-block;
+  width: 2.5rem;
+  border-bottom: 2px solid #fff;
+  margin: 1rem auto;
+}
+
+.daily-menu-h4{
+  width: 100%;
+  letter-spacing: 0.1rem;
+  font-family: "Oswold", sans-serif;
+}
+
+.daily-menu-p{
+  font-family: "Oswold", sans-serif;
+  width: 100%;
+  font-size: 1rem;
+  padding: 30px 20px;
+}
+.col-large{
+  width: 50%;
+  height: 450px;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.col-large-one,
+.col-large-three{
+  background-color: #f2ac32;
+  color: aliceblue;
+  justify-content: center;
+}
+
+
+.col-large-two{
+  background:url('../img/ice-cream.jpg');
+  background-size: cover;
+  background-position: center;
+  
+  justify-content: center;
+}
+.fa-birthday-cake,
+.fa-utensils {
+  width: 100%;
+  font-size: 3rem;
+  margin-top: 1rem;
+}
