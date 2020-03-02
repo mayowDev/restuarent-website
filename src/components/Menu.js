@@ -1,17 +1,18 @@
 import React from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import "../css/Menu.css";
 
 function Menu() {
   return (
     <div>
       <div className='daily-menu'>
-
         <h1 className='daily-menu-h1'>Today's</h1>
         <h2 className='daily-menu-h2'>Special Menu</h2>
         <div className="daily-menu-container">
+          {/* first column */}
           <div className="daily-menu-col">
             <div className="col-large col-large-one">
-              <i className="fa fa-birthday-cake"></i>
+              <FontAwesomeIcon icon="birthday-cake" className="fa-birthday-cake"/>
               <h3 className="daily-menu-h3">Deserts</h3>
               <span className="separator"></span>
               <h4 className="daily-menu-h4">ICE CREAM</h4>
@@ -20,13 +21,25 @@ function Menu() {
               </p>
               <h4 className="daily-menu-h4"> From $9.99</h4>
             </div>
-            <div className="col-large col-large-two"></div>
+            <div className="col-large col-large-two">
+              
+            </div>
           </div>
-          <div className="daily-menu-col"></div>
-          <div className="daily-menu-col"></div>
+          {/* second column */}
+          <div className="daily-menu-col">
+            <div className="col-small col-small-one">
+              <FontAwesomeIcon icon="hamburger" className="fa-hamburger"/>
+              <h3 className="col-small-h3">Deserts</h3>
+              <span className="separator-orange"></span>
+              <h4 className="col-small-h4">ICE CREAM</h4>
+              <h4 className="daily-menu-h4"> From $9.99</h4>
+            </div>
+
+          </div>
+          {/* fourth column */}
           <div className="daily-menu-col">
           <div className="col-large col-large-three">
-            <i className="fa fa-utensils"></i>
+            <FontAwesomeIcon icon="utensils" className="fa-utensils"/>
             <h3 className="daily-menu-h3">Lunch</h3>
             <span className="separator"></span>
             <h4 className="daily-menu-h4">Kebab</h4>
@@ -40,9 +53,6 @@ function Menu() {
             </div>
           </div>
         </div>
-        <h1 className='daily-menu-h1'>To Day's</h1>
-        <h2 className='daily-menu-h2'>Special Menu</h2>
-
       </div>
     </div>
   );

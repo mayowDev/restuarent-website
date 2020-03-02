@@ -85,5 +85,47 @@
   margin-top: 1rem;
 }
 
+.col-large-four{
+  background: url('../img/piza.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.fa-hamburger{
+  color: #f2ac32;
+  width: 100%;
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+
+
+.col-small-h3{
+  font-family: "Rochester", cursive;
+  width: 100%;
+  letter-spacing: 0.1rem;
+  color: #f2ac32;
+  font-size: 1.5rem;
+ 
+}
+
+.col-small-h4{
+  width: 100%;
+  letter-spacing: 0.1rem;
+  color: black;
+  font-family: "Oswold", sans-serif;
+
+}
+.col-small{
+  width: 50%;
+  height: 14rem;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.col-small-one{
+  background-color: white;
+}
 
 
