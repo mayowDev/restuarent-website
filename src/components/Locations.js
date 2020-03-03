@@ -1,6 +1,6 @@
 import React from "react";
-import "../css/Locations.css";
 import { Link, BrowserRouter as Router } from "react-router-dom";
+import "../css/Locations.css";
 
 function Locations() {
   return (

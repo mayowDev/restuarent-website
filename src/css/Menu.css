@@ -20,6 +20,16 @@
   letter-spacing: 0.2rem;
 }
 
+.daily-menu-container{
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: center;
+
+}
+
 .daily-menu-col{
   width: 50%;
   display: flex;
@@ -35,7 +45,8 @@
   font-family: "Rochester", cursive;
 }
 
-.separator{
+.separator,
+.separator-orange {
   display: inline-block;
   width: 2.5rem;
   border-bottom: 2px solid #fff;
@@ -75,10 +86,21 @@
   background:url('../img/ice-cream.jpg');
   background-size: cover;
   background-position: center;
-  
   justify-content: center;
 }
-.fa-birthday-cake,
+.col-small-two{
+  background: url('../img/salmon-fish.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.col-small-three{
+  background: url('../img/hyderabadi-biryani.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.fa-ice-cream,
 .fa-utensils {
   width: 100%;
   font-size: 3rem;
@@ -89,13 +111,6 @@
   background: url('../img/piza.jpg');
   background-size: cover;
   background-position: center;
-}
-
-.fa-hamburger{
-  color: #f2ac32;
-  width: 100%;
-  font-size: 3rem;
-  margin-bottom: 10px;
 }
 
 
@@ -109,23 +124,44 @@
  
 }
 
-.col-small-h4{
+.col-small-h4,
+.col-small-h5{
+  font-family: "Oswold", sans-serif;
   width: 100%;
   letter-spacing: 0.1rem;
   color: black;
-  font-family: "Oswold", sans-serif;
+}
 
+
+.col-small-h5{
+  
+  margin-top: 0.6rem;
+  color: #f2ac32;
+
+}
+
+.separator-orange{
+  border-bottom: 2px solid #f2ac32;
 }
 .col-small{
   width: 50%;
   height: 14rem;
   display: flex;
   justify-content: flex-start;
+  justify-content: center;
   flex-wrap: wrap;
   align-content: center;
 }
 .col-small-one{
   background-color: white;
+}
+
+
+.fa-hamburger{
+  color: #f2ac32;
+  width: 100%;
+  font-size: 3rem;
+  margin-bottom: 10px;
 }
 
 
