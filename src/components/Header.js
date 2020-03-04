@@ -1,10 +1,11 @@
-import React from "react";
+import React,{useEffect, useState} from "react";
 import { BrowserRouter as Router, Link } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import "../css/Header.css";
 
 function Header() {
+  const [Cart, setCart] = useState('0')
   return (
     <Router>
       <header>
@@ -25,13 +26,11 @@ function Header() {
             <li>
               <Link to='/search'>
                 <FontAwesomeIcon icon="search" className="fa-search"/>
-                {/* <i className='fa fa-search'></i> */}
               </Link>
             </li>
             <li>
               <Link to='/booking'>
                 <FontAwesomeIcon icon="shopping-bag" className="fa-shopping-bag"/>
-                {/* <i className='fa fa-shopping-bag'></i> */}
               </Link>
             </li>
           </ul>
