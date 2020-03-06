@@ -7,6 +7,7 @@ import Header from "./components/Header";
 import Locations from "./components/Locations";
 import Services from "./components/Services";
 import Menu from "./components/Menu";
+import Prices from "./components/Prices";
 
 library.add(fab, faIceCream, faFish, faShoppingBag, faSearch, faBirthdayCake, faUtensils, faHamburger)
 
@@ -17,6 +18,7 @@ function App() {
       <Locations />
       <Services />
       <Menu />
+      <Prices/>
     </div>
   );
 }

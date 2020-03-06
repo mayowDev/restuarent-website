@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.prices-section{
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("../img/pizza.jpg");
+    background-size: cover;
+    padding: 120px 50px;
+    text-align: center;
+    /* height: 400px; */
+}
+
+.prices-h1{
+  font-family: "Rochester", cursive;
+  color: #f2ac32;
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.prices-h2{
+  color: white;
+  font-family: "Oswold", sans-serif;
+  text-transform: capitalize;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  letter-spacing: 0.2rem;
+}
+
+.prices-row {
+    display: flex;
+    justify-content: center;
+    padding: 4rem;
+}
+
+.prices-col{
+    /* max-width: 500px; */
+    width: 335px;
+}
+.food-container{
+    text-align: left;
+    color: white;
+    margin: 2rem;
+}
+
+.food-title{
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.food-price{
+    color: #f2ac32;
+    font-family: "Oswold", sans-serif;
+    font-size: 1.2rem;
+}
+
+.food-ingridient{
+    letter-spacing: 0.2rem;
+}
+
+.food-button{
+    text-align: center;
+    border: 1px solid white;
+    letter-spacing: 2px;
+    font-family: "Oswold", sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    padding: 0.8rem 3rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.food-button:hover{
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #000;
+    padding: 0.8rem 1.5rem;
+}

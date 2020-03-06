@@ -11,3 +11,6 @@ child: absolute; to mover around
 -dev online youtube for react css
 -red stabler youtube
 
+display: felx;
+felx-wrap:wrap; makes sure that when it breaks i starts new line
+display: inline-bloc; makes take only the space that it needs and not the full bloc
