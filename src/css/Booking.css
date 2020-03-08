@@ -1,0 +1,22 @@
+.booking-section{
+    padding: 5rem;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+.booking-table-h1{
+    font-family: "Rochester", cursive;
+    color: #f2ac32;
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    letter-spacing: 0.1rem;
+  }
+  
+.booking-table-h2{
+    color: black;
+    font-family: "Oswold", sans-serif;
+    text-transform: capitalize;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    /* letter-spacing: 0.1rem; */
+  }
+  

@@ -8,8 +8,11 @@ import Locations from "./components/Locations";
 import Services from "./components/Services";
 import Menu from "./components/Menu";
 import Prices from "./components/Prices";
+import Booking from "./components/Booking";
 
-library.add(fab, faIceCream, faFish, faShoppingBag, faSearch, faBirthdayCake, faUtensils, faHamburger)
+library.add(
+  fab, faIceCream, faFish, faShoppingBag, 
+  faSearch, faBirthdayCake, faUtensils, faHamburger)
 
 function App() {
   return (
@@ -19,6 +22,7 @@ function App() {
       <Services />
       <Menu />
       <Prices/>
+      <Booking/>
     </div>
   );
 }
