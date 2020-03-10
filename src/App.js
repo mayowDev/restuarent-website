@@ -1,7 +1,10 @@
 import React from "react";
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
-import { faBirthdayCake, faUtensils, faHamburger, faSearch, faShoppingBag, faIceCream, faFish } from '@fortawesome/free-solid-svg-icons'
+import {
+  faCalendar, faBirthdayCake, faUtensils, faHamburger, faSearch, 
+  faShoppingBag, faIceCream, faFish , faClock, faUserCheck
+} from '@fortawesome/free-solid-svg-icons'
 
 import Header from "./components/Header";
 import Locations from "./components/Locations";
@@ -11,8 +14,8 @@ import Prices from "./components/Prices";
 import Booking from "./components/Booking";
 
 library.add(
-  fab, faIceCream, faFish, faShoppingBag, 
-  faSearch, faBirthdayCake, faUtensils, faHamburger)
+  fab, faIceCream, faFish, faShoppingBag, faClock, faUserCheck,
+  faSearch, faBirthdayCake, faUtensils, faHamburger,faCalendar)
 
 function App() {
   return (

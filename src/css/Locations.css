@@ -50,12 +50,15 @@
 }
 
 .discover-link {
-  color: #f2ac32;
+  background-color: #f2ac32;
+  color: hsl(0, 0%, 100%);
+  padding: 10px;
+  border-radius: 2px;
   text-decoration: none;
   text-transform: capitalize;
   font-family: "Oswold", sans-serif;
-  font-size: 1.2rem;
-  font-weight: bold;
+  font-size: 1rem;
+  /* font-weight: bold; */
 }
 
 .discover-border {

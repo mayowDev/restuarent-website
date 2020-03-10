@@ -3,20 +3,63 @@
     text-align: center;
     background-color: #f0f0f0;
 }
-.booking-table-h1{
+
+.booking-h1{
     font-family: "Rochester", cursive;
     color: #f2ac32;
     font-size: 2.5rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
     letter-spacing: 0.1rem;
-  }
+}
   
-.booking-table-h2{
+.booking-h2{
     color: black;
     font-family: "Oswold", sans-serif;
     text-transform: capitalize;
     font-size: 2rem;
     margin-bottom: 2rem;
     /* letter-spacing: 0.1rem; */
-  }
+}
+
+.booking-row{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+}
+
+.single-column{
+    margin-top: 0rem;
+    background-color: #f0f0f0;
+    font-family: "Oswold", sans-serif;
+
+}
+
+.booking-icon{
+    padding: 1rem 1.5rem;
+    margin-left: 1rem;
+    display: inline-block;
+    border-right: 0.1rem solid #f0f0f0;
+}
+
+.booking-input{
+    height: 2rem;
+    border: none;
+    border-bottom: 1px solid  rgb(39, 37, 37);  
+    outline: none;
+}
+
+.submit-booking{
+    background:#b67f1f;;
+    color: #f0f0f0;
+    text-decoration: none;
+    font-size: 1.3rem;
+    padding: 0.8rem 1rem;
+    margin-left: 3.5rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.submit-booking:hover {
+    background-color: #f2ac32;
+}
   
