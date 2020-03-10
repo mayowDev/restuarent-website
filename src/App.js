@@ -12,6 +12,7 @@ import Services from "./components/Services";
 import Menu from "./components/Menu";
 import Prices from "./components/Prices";
 import Booking from "./components/Booking";
+import Footer from "./components/Footer";
 
 library.add(
   fab, faIceCream, faFish, faShoppingBag, faClock, faUserCheck,
@@ -26,6 +27,7 @@ function App() {
       <Menu />
       <Prices/>
       <Booking/>
+      <Footer/>
     </div>
   );
 }

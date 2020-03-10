@@ -1,0 +1,15 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+footer{
+    padding: 100px;
+    /* background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)),
+    url("../img/lahore.jpg");
+    background-size: cover;
+    background-position: center; */
+    background:#b67f1f;
+    text-align: center;
+}
