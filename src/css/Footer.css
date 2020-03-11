@@ -6,10 +6,85 @@
 
 footer{
     padding: 100px;
-    /* background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)),
-    url("../img/lahore.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("../img/footer.jpg");
     background-size: cover;
-    background-position: center; */
+    background-position: center;
+    /* background:#b67f1f; */
+    /* text-align: center; */
+    color: white;
+}
+
+.footer-row{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer-col{
+    margin: 1.5rem 2rem;
+}
+
+.footer-title{
+    font-family: "Oswold", sans-serif;
+    color: #f2ac32;
+    margin-bottom: 2rem;
+    font-weight: 400px;
+    font-size: 1rem;
+}
+
+.footer-text{
+    margin-bottom: 2rem;
+    font-size: 0.9rem;
+    letter-spacing: 0.1rem;
+}
+
+.footer-email{
+    margin-top: 5px;
+    height: 40px;
+    width: 230px;
+    padding: 10px 15px;
+    outline: none;
+}
+
+.footer-subscribe-btn{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    outline-width: 0;
     background:#b67f1f;
-    text-align: center;
+    color: #f0f0f0;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    font-size: 1.3rem;
+    letter-spacing: 0.1rem;
+    /* padding: 1rem; */
+    
+}
+
+
+.footer-subscribe-btn:hover {
+    background-color: #f2ac32;
+    cursor: pointer;
+}
+
+
+.social-media{
+    /* display: flex; */
+    /* justify-content: center; */
+    width: 100%;
+    font-size: 3rem;
+    margin-left: 25px;
+    cursor: pointer;
+    /* border: 1px solid white; */
+  }
+  
+
+.social-media:hover{
+    color:#b67f1f;
+    transition: all 0.3s ease-in-out;
 }
