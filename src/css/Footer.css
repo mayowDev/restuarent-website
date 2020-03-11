@@ -5,7 +5,7 @@
 }
 
 footer{
-    padding: 100px;
+    padding-top: 60px;
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
     url("../img/footer.jpg");
     background-size: cover;
@@ -54,7 +54,7 @@ footer{
     height: 40px;
     line-height: 40px;
     margin-top: 25px;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
     outline-width: 0;
     background:#b67f1f;
     color: #f0f0f0;
@@ -70,6 +70,7 @@ footer{
 .footer-subscribe-btn:hover {
     background-color: #f2ac32;
     cursor: pointer;
+    
 }
 
 
@@ -87,4 +88,20 @@ footer{
 .social-media:hover{
     color:#b67f1f;
     transition: all 0.3s ease-in-out;
+}
+
+.copyright{
+    /* padding: 40px; */
+    border-top: 1px solid #a09a9ae0;
+    font-family: "Oswold", sans-serif;
+    font-size: 1rem;
+    color: #f0f0f0;
+    text-align: center;
+    padding: 2.5rem;
+    margin-top: 2rem;
+}
+
+.copyright-name{
+    color: #f2ac32;
+    font-size: 1rem;
 }

@@ -37,17 +37,10 @@ function Footer() {
                 <FontAwesomeIcon icon={['fab', 'facebook-square']} className="social-media" />
                 <FontAwesomeIcon icon={['fab', 'instagram-square']} className="social-media"/>
                 <FontAwesomeIcon icon={['fab', 'pinterest-square']} className="social-media"/>
-                
-                <FontAwesomeIcon icon="twitter" className="social-media"/>
-                
             </div>
-            {/* <div className="footer-col">
-                <h3 className="footer-title">Follow Us</h3>
-                <p className="footer-text">Instagram</p>
-                <p className="footer-text">Facebook</p>
-                <p className="footer-text">Pinterest</p>
-                <p className="footer-text">Twitter</p>
-            </div> */}
+            <div className="copyright">
+                Copyright &copy; 2020 <span className="copyright-name">The Monal.</span> All rights Reserved
+            </div>
         </div>
 
     </footer>
