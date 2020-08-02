@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fb24484d.chunk.css",
+    "main.js": "/static/js/main.01296794.chunk.js",
+    "main.js.map": "/static/js/main.01296794.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.43d3cfe1.js",
+    "runtime-main.js.map": "/static/js/runtime-main.43d3cfe1.js.map",
+    "static/js/2.35850484.chunk.js": "/static/js/2.35850484.chunk.js",
+    "static/js/2.35850484.chunk.js.map": "/static/js/2.35850484.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.158a148d9f69cba3d3e970d84cdfa4b6.js": "/precache-manifest.158a148d9f69cba3d3e970d84cdfa4b6.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.fb24484d.chunk.css.map": "/static/css/main.fb24484d.chunk.css.map",
+    "static/js/2.35850484.chunk.js.LICENSE": "/static/js/2.35850484.chunk.js.LICENSE",
+    "static/media/Services.css": "/static/media/menu.a09273c4.jpg",
+    "static/media/Footer.css": "/static/media/footer.7123bd95.jpg",
+    "static/media/Header.css": "/static/media/hero1.c5488737.jpg",
+    "static/media/Menu.css": "/static/media/salmon-fish.055332b3.jpg",
+    "static/media/Locations.css": "/static/media/lahore1.f3720035.jpg",
+    "static/media/Prices.css": "/static/media/pizza.548f59b4.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.43d3cfe1.js",
+    "static/js/2.35850484.chunk.js",
+    "static/css/main.fb24484d.chunk.css",
+    "static/js/main.01296794.chunk.js"
+  ]
+}
